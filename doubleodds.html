@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta https-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <title>Double Odds Banner Desktop</title>
+    
+<style type="text/css">
+   table,tr,td {margin:0;padding:0;border:0; border-collapse:collapse;}
+   #doubleodds {box-sizing: content-box !important; margin:0; padding:0;}
+   .doubleodds_desktop {box-sizing: content-box !important; margin:0; padding:0;}
+   .main {
+      /*1138+2+30=1170*/
+      max-width: 1138px;
+      border:1px solid firebrick;
+      margin:0 auto;
+      box-shadow: 0px 0px 1px 0px black;
+      border-radius: 4px;
+   }
+   
+   .imgres {
+      width: 100%;
+      height: auto;
+   }
+   span.one:before {
+      content: '1';
+      font-size: 22px;
+      display: inline-block;
+      margin-right: 10px;
+      margin-left:-10px;
+      vertical-align: bottom;
+      
+   }
+   span.two:before {
+      content: '2';
+      font-size: 22px;
+      display: inline-block;
+      margin-right: 10px;
+      margin-left:-10px;
+   }
+   span.three:before {
+      content: '3';
+      font-size: 22px;
+      display: inline-block;
+      margin-right: 10px;
+      margin-left:-10px;
+   }
+   
+
+   
+   @media only screen and (min-width: 992px) and (max-width: 1500px) {
+      /* containers */
+      table.main {
+         /*938+2+30=970*/
+         width: 970px !important;
+         
+      }
+      table.inner {
+         width: 968px !important;
+      }
+      /* headings */
+      .heading h2 {
+         font-size:19px !important;
+         max-width: 330px !important;
+         display: inline-block !important;
+      }
+      .heading h1 {
+         font-size:48px !important;
+         max-width: 475px !important;
+         padding:5px 0 5px !important;
+      }
+      .heading h3 {
+         font-size:19px !important;
+         max-width: 460px !important;
+         margin-top: -16px !important;
+      }
+      .heading img.hero {
+         margin-left: 0 !important;
+      }
+      /* terms */
+      .terms .gaware {
+         margin-right: 1.7em !important;
+      }
+      img.divider {
+         max-width: 20px !important;
+      }
+      .dbot tr td {padding-left:15px !important;}
+      
+      /* footer */
+      td.pone p,td.ptwo p,td.pthree p {font-size:18px !important;}
+      td.pone {
+         max-width:100px !important;
+      }
+      td.pone p {
+         width: 132px !important;
+         margin-left: 22px !important;
+      }
+      td.ptwo {
+         max-width: 135px !important;   
+      }
+      
+      td.ptwo p {
+         width: 175px !important;
+      }
+      td.pthree {
+         max-width: 185px !important;
+      }
+      
+      td.pthree p:nth-child(1) {
+         width: 150px !important;
+         height: auto !important;
+         margin-right: 16px !important;
+         margin-left: -10px !important;
+            
+      }
+      
+      td.pthree p:nth-child(2) {
+         width: 100px !important;
+      }
+      
+      
+      td.pthree p:nth-child(2) > a {
+         height:59px !important;
+        
+      }
+      td.pthree img.button {
+         max-width: 220px !important;
+      }
+      
+      .brak {display: none !important;}      
+      
+      
+   }
+   
+   
+   @media screen and (max-width: 991px) {
+      table.main {
+         /*938+2+30=970*/
+         width: 750px !important;
+        
+      }
+      table.inner {
+         width: 748px !important;
+      }
+      
+      /* headings */
+      .heading h2 {
+         font-size:12px !important;
+         max-width: 250px !important;
+         display: inline-block !important;
+         margin:0px !important;
+         
+      }
+      .heading h1 {
+         font-size:30px !important;
+         max-width: 300px !important;
+         padding:0 !important;
+         line-height: 60px !important;
+      }
+      .heading h3 {
+         font-size:14px !important;
+         max-width: 300px !important;
+         margin-top: -20px !important;
+         letter-spacing: 0 !important;
+         line-height: 20px !important;
+      }
+      td img.hero {
+         max-width: 315px !important;
+         margin-left: 5em !important;
+         display: inline-block !important;
+      }
+      
+      /* terms */
+      table.terms {width:96% !important; display: inline-table !important;}
+      .terms .gaware {
+         margin-right: 2em !important;
+      }
+      
+      .terms .trms {
+         font-size: 13px !important;
+         margin-top: -22px !important;
+         line-height: 18px !important;   
+      }
+      
+      img.arrow {
+         max-width: 36px !important;
+         line-height: 90px !important;
+      }
+      
+      img.divider {
+         max-width: 15px !important;
+      }
+      .dbot tr td {padding-left:27px !important;}
+      
+      /* footer */
+      td.pone p,td.ptwo p,td.pthree p {font-size:14px !important;}
+      td.pone,td.ptwo,td.pthree {height: 90px !important;}
+      td.pone {
+         max-width:155px !important;
+      }
+      td.pone p {
+         width: 105px !important;
+         margin-left: 14px !important;
+         line-height: 90px !important;
+      }
+      td.ptwo {
+         max-width: 145px !important;
+         margin-left: 0px !important;   
+      }
+      
+      td.ptwo p {
+         width: 125px !important;
+         height: 50px !important;
+      }
+      
+      td span.two {margin-left: -20px !important;}
+      td span.three {margin-left: -10px !important;}
+      
+      td.pthree {
+         max-width: 240px !important;
+      }
+      
+      td.pthree p:nth-child(2) {
+         width: 80px !important;
+         height: auto !important;
+         margin-right: 16px !important;
+         margin-left: -2px !important;
+            
+      }
+      
+      td.pthree p:nth-child(3) {
+         width: 142px !important;
+         height: 40px !important;
+      }
+      
+      
+      td.pthree p:nth-child(3) > a {
+         height:40px !important;
+        
+      }
+      td.pthree img.button {
+         max-width: 142px !important;
+         max-height: 40px !important;
+      }
+      
+      .brak {display: none !important;}    
+      
+      
+   }
+   
+</style>
+</head>
+<body>
+   <section id="doubleodds">    
+      <div class="doubleodds_desktop">
+         <table class="main" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" style="width: 100%; background-color: #fff;">
+            <tr>
+               <td>
+                  <table cellpadding="0" cellspacing="0" border="0" class="inner" style="width: 1168px;">
+                     <tr>
+                        <td>
+                           <table cellpadding="0" cellspacing="0" border="0" class="dtop" style="width:100%;">
+                              <tr>
+                                 <td>
+                                    <img class="imgres divider" src="https://sb.monetate.net/img/1/748/1246959.png" width="25" height="25" alt="spacer" style="max-width: 25px; display: block;">
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <table cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" class="heading" style="width: 100%; background-color: #fff;">
+                                       <tr>
+                                          <td>
+                                             <img class="imgres" alt="spacer" src="https://sb.monetate.net/img/1/748/1246960.png" width="27" height="27" style="max-width: 27px; display: block;">
+                                          </td>
+                                          <td>
+                                            <h2 style="font-size:23px; color:#333; margin:0;max-width:405px;margin-top:-26px;display:block;font-weight:normal; ">ANY SPORT. ANY ODDS. ANY BET.</h2>
+                                            <h1 style="font-size:58px;color:#202020; line-height: 66px; padding:10px 0 10px; max-width: 610px; margin:0;letter-spacing: -1px; ">DOUBLE THE ODDS</h1>
+                                          </td>
+                                          <td>
+                                             <img class="imgres hero" src="https://sb.monetate.net/img/1/748/1246961.png" alt="Sports" width="450" height="136" style="max-width:450px; margin-left:5em; display:block;">
+                                          </td>
+                                       </tr>
+                           <tr>
+                              <td style="background-color:#fff;">
+                                 <img class="imgres" src="https://sb.monetate.net/img/1/748/1246960.png" width="27" height="27" alt="spacer" style="display: block; max-width:27px;">
+                              </td>
+                              <td>
+                                <h3 style="color: #5d5d5d; font-size: 24px; letter-spacing: 1.25px; font-weight: normal; max-width: 610px;line-height: 36px;margin:0;vertical-align: middle;margin:0;margin-top:-15px;">New players get Double the Odds on their first bet</h3>
+                              </td>
+                              <td>
+                                 <table cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" class="terms" style="width: 100%; background-color: #fff;">
+                                    <tr>
+                                       <td>
+                                          <img class="imgres" src="https://sb.monetate.net/img/1/748/1246955.png" width="27" height="27" alt="spacer" style="max-width:27px;display:block;">
+                                       </td>
+                                       <td class="trms" style="line-height: 36px; vertical-align: middle;display: block; margin-top: -12px; text-align:right;"><a target="_blank" style="text-decoration: underline; color:#333;" href="https://www.grosvenorcasinos.com/static/termsandconditions#terms" target="_blank" title="Terms and Conditions">T&Cs apply.</a> <span><img class="imgres" src="https://sb.monetate.net/img/1/748/1246954.png" width="26" height="19" alt="18" style="max-width:26px;line-height: 36px; vertical-align: text-bottom;"></span> <a class="gaware" target="_blank" style="text-decoration: none; color:#333; margin-right:3em; line-height:22px; vertical-align:middle;" href="https://www.begambleaware.org/" target="_blank" title="BeGambleAware.org" >begambleaware.org</a>
+                                       </td>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                                       <tr>
+                                          <td colspan="3" style="background-color: #fff;">
+                                             <img class="imgres divider" src="https://sb.monetate.net/img/1/748/1246960.png" width="27" alt="spacer" height="27" style="max-width:27px; display: block;">
+                                          </td>
+                                       </tr>
+                                    </table>
+                                 </td>
+                              </tr>   
+                                 
+                           </table><!--/..  table.dtop -->
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <table cellpadding="0" cellspacing="0" border="0" bgcolor="#ededed" class="dbot" style="background-color: #ededed; width:100%;">
+                              <tr>
+                                 <td class="pone" style="vertical-align: middle;font-size:20px; max-width:100px; height:114px;padding-left:37px;">
+                                    <p style="width:180px; margin:0; display:inline-block; line-height:108px; vertical-align:middle;padding-bottom:3px;"><span class="one"></span> 
+                                    Choose any bet</p><img class="imgres arrow" src="https://sb.monetate.net/img/1/748/1246956.png" width="50" alt="arrow" height="114" style="max-width: 50px;line-height: 114px; vertical-align:middle;">
+                                 </td>
+                                 <td class="ptwo" style="vertical-align:middle;font-size:20px; max-width:160px;">
+                                    <span class="two"></span>
+                                    <p style="width:245px; margin:0; display:inline-block;height:66px; vertical-align: middle;"> 
+                                     Select ‘odds boost‘ on the<br class="brak" />bet slip and stake up to<br class="brak"/> £10</p><img class="imgres arrow" style="max-width: 50px;line-height: 114px; vertical-align:middle;"  src="https://sb.monetate.net/img/1/748/1246956.png" alt="arrow" width="50" height="114">
+                                 </td>
+                                 <td class="pthree" style="max-width:241px; vertical-align:middle; font-size: 20px;">
+                                    <span class="three" style="margin-left: -10px;"></span>
+                                    <p style="width: 200px; height:50px; vertical-align:middle; margin:0; display: inline-block;margin-right:42px;">Get Double the Odds<br class="brak"/>
+                                    paid in cash!</p>
+                                    <p style="width:221px; vertical-align:middle; height:59px; margin:0; display:inline-block;"><a target="_blank" style="height:60px; display:inline-block;" href="https://www.grosvenorcasinos.com/registration" title="Bet Now">
+                                       <img class="imgres button" src="https://sb.monetate.net/img/1/748/1246958.png" width="251" height="67" style="margin:0; margin-left:.5em; max-height:67px;" alt="Bet Now"></a>
+                                    </p>
+                                 </td>
+                              </tr>
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>  
+         </table><!--/..  endof table.main -->
+      </div> <!--/.. endof doubleodds_desktop -->    
+   </section> <!--/.. endof doubleodds -->
+  
+<script type="text/javascript">
+   
+   document.getElementById('doubleodds').
+   addEventListener('click', function(e) {
+      //e.preventDefault();
+      if(e.target.alt == 'Bet Now') {
+         //alert('clicked Bet Now \u221a');
+      }
+      else if(e.target.title == 'Terms and Conditions') {
+         //alert('clicked Terms and Conditions \u221a');
+      }
+      else if(e.target.title == 'BeGambleAware.org') {
+         //alert('clicked BeGambleAware.Org \u221a');
+      }
+      
+   },false);
+   
+
+</script>   
+   
+ 
+</body>
+</html>
